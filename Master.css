@@ -1,0 +1,427 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+
+body{
+    background-color: black;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    
+    
+
+}
+
+
+/*  Navbar  */
+.logo1{
+    height: 60px;
+    width: 200px;
+    
+}
+
+nav{
+    background-color: rgb(255, 255, 255);
+    border: 5px solid rgb(255, 255, 255);
+    border-radius: 50px;
+    box-shadow: 2px 1px 6px 0.5px rebeccapurple;
+}
+.fa-moon{
+    font-size: 30px !important;
+    margin-inline: 20px;
+    cursor: pointer;
+   
+}
+.fa-user{
+    font-size: 28px !important;
+    cursor: pointer;
+   
+}
+
+
+
+/* 
+nav ul{
+    margin-left: 40px;
+    color: aliceblue !important;
+} */
+
+nav li a{
+    font-size: 20px;
+    text-align: center;
+    font-weight: bold;
+    font-style: italic;
+
+}
+
+
+/*  Section 1 */
+
+
+.home2{
+    margin-top: -100px;
+    margin-inline: 30px 30px !important;
+    
+}
+
+.frnt{
+    padding-top: 200px;
+    padding-bottom: 200px;
+}
+
+.home2 .img1{
+    margin-top: -30px;
+}
+
+.carousel-inner{
+    border: 5px solid white;
+    border-radius: 5px;
+    box-shadow: 0.2px 0.2px 3px 1px black;
+    
+    
+}
+.sl1{
+   
+    /* background-color: #FF86D7; */
+    
+    color:rgb(255, 255, 255);
+    padding-top: 80px !important;
+
+}
+
+.search{ 
+    width: 410px;
+    height: 60px;
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    border-radius: 8px;
+    box-shadow: 0.3px 0.3px 3px 1px black;
+    margin-bottom: 20px;
+}
+.fa-solid{
+font-size: 22px;
+padding-top: 18px;
+padding-left: 10px;
+}
+
+.ssss{
+    border: 2px solid rgb(255, 255, 255);
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 2px 1px 6px 0.5px rebeccapurple;
+    /* font-family:Georgia, 'Times New Roman', Times, serif !important; */
+    
+}
+.sss{
+    border: none;
+}
+
+
+.r1 span{
+    font-size: 40px;
+    font-weight: bold;
+}
+
+.r1 p{
+    font-weight: bold;
+    margin-left: 30px;
+}
+
+
+/*  Section 2 */
+
+.home3{
+    margin-top: 200px;
+    padding-bottom: 300px;
+    padding-top: 250px;
+}
+.p1{
+    background-color: #e2e2e2;
+    height: 300px;
+    width: 335px;
+    text-align: center;
+    padding: 5px;
+    padding-top: 15px;
+    box-shadow: 1px 1px 15px 6px blue;
+    border-radius: 20px;
+}
+.p2{
+    margin-top: 150px !important;
+    margin-bottom: 100px !important;
+}
+
+.service{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+
+.p1:hover,.p2:hover{
+    transform: scale(1.03);
+}
+
+.p1 h5{
+    color: blue;
+    height: 50px;
+    position: relative;
+}
+
+.p1 i{
+    position: absolute;
+    top:-17px 
+}
+
+
+
+
+/*  Section 3 */
+
+.home{
+    padding-top: 250px;
+    padding-bottom: 300px;
+
+}
+
+.hh{
+
+    background-color:rgb(255, 255, 255);
+    border-radius: 8px;
+    box-shadow: 0 .5rem 1rem rgba(0,0,0,.2);
+    border:.1rem solid rgba(0,0,0,.2);
+    padding:20px;
+    padding-inline: 45px;
+    margin-inline: 100px;
+}
+
+.hh h3{
+    font-size: 35px;
+}
+
+/* 
+.inputBox{
+    padding-right:10px ;
+} */
+
+.pl1{
+    height: 45px;
+    font-size: 20px;
+    padding: 3px;
+    padding-left: 10px;
+    border: 1px solid grey;
+    font-style: italic;
+    font-weight: 600;
+    border-radius: 8px;
+    margin-top: 5px;
+    color: rgb(0, 0, 0);
+}
+.pl2{
+    
+    height:45px;
+}
+
+
+
+.pl2 option{
+ color: black;
+}
+
+
+.pl{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    
+}
+
+
+.box{
+    height: 420px;
+    width: 320px;
+    background-color: #e2e2e2;
+    float: left;
+    margin-left: 40px;
+    box-shadow: 1px 1px 5px 1px black;
+    margin-bottom: 30px;
+    border: 2px solid white;
+    border-radius: 20px 20px 0 0;
+}
+
+.box img{
+    border-radius:20px 20px 0px 0px;
+}
+
+
+
+
+.image-container img{
+    height: 200px;
+    width: 317px;
+}
+
+.box .content{
+    padding: 8px;
+}
+
+.box .content .hh5{
+height: 45px;   
+}
+
+.box .content .con1{
+width: 50%;
+float: left;
+padding-top: 13px;
+font-size: 18px;
+font-weight: bold;
+color: rgb(250, 162, 0);
+}
+
+.hh5 .fontt{
+text-align: right;
+padding-right: 10px;
+}
+.hh5 .fontt i{
+    color: rgb(61, 5, 215);
+    font-size: 19px;
+    align-items: center;
+}
+
+.sqbed{
+    float: left;
+    width: 100px;
+    text-align: center;
+    border: 1px dashed black;
+    
+}
+
+.sqbed i{
+    font-size: 10px;
+    padding-top: 10px !important;
+}
+
+.btn3{
+    width: 99%;
+    margin-top: 15px;
+}
+
+/* section 4 */
+
+.home4{
+    padding-bottom: 300px;
+    padding-top: 250px;
+}
+
+.agent{
+    flex-wrap: wrap;
+}
+.a11{
+    width: 250px;
+    height: 350px;
+    padding: 20px 5px;
+    margin: 10px 23px;
+    text-align: center ;
+    border-top-right-radius: 30px;
+    border-bottom-left-radius: 30px;
+    background: white;
+    box-shadow: 1px 1px 13px 5px blue,-1px -1px 13px 1px blue;
+    
+}
+
+.a11:hover{
+    transform: scale(1.08);
+    border-radius: 30px;
+}
+
+.a11 img{
+    margin-bottom: 20px;
+}
+
+
+/* section5 */
+
+
+.home5{
+    padding-top: 200px;
+}
+
+.home5 .form{
+    padding: 30px 120px;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    border:none ;
+}
+.home5 .form ::placeholder{
+    color: black;
+}
+
+.btn4{
+    border-radius: 30px;
+    width: 150px;
+    height: 45px;
+    background-color: #7000FF;
+    border: none;
+}
+.name input{
+    background-color: #5E8FFF;
+}
+
+/* footer */
+
+.footter{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+/* MODAL */
+
+.mc{
+    width: 1300px !important;
+    background-color: #FF0BAE !important;
+    margin: 0px 10px 0px 50px;
+}
+
+
+
+
+
+/* THEME CHANGE */
+
+.light{
+    background-color: white !important;
+    color: black !important;
+}
+
+
+.p11{
+    background-color: rgb(255, 255, 255);
+    height: 300px;
+    width: 335px;
+    text-align: center;
+    padding: 5px;
+    box-shadow: 1px 1px 10px 5px #FFB135,-1px -1px 5px 1px #FFB135;
+    border-radius: 20px;
+   
+}
+
+.a11{
+
+}
+
+
+
+
+
+
+
+
+/* MediaQuery */
+
+/* 
+@media(max-width:360px){
+    nav{
+    width: 310px;
+    }
+
+    .logo1{
+        height: 50px;
+        width: 80px;
+    }
+
+} */
